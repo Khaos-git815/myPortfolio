@@ -53,7 +53,7 @@ This setup demonstrates a serverless architecture, effectively utilizing AWS ser
 
 To explore the portfolio, visit the deployed URL. The site is structured into various sections: Home, About, Projects, Services, Resume, and Contact. Each section offers detailed insights into different aspects of web development skills, professional experiences, and personal projects.
 
-This is the link of my [GitHub repository](https://github.com/Kirill777-web/FullStack-WebDev-Portfolio)
+This is the link of my [GitHub repository](https://github.com/Khaos-git815/myPortfolio)
 
 This is the link of my [AWS Amplify](https://main.d3uq86hhi34ytt.amplifyapp.com)
 
@@ -71,7 +71,7 @@ This project was developed with the following technologies:
 
 ## License
 
-Copyright (c) 2023 Kirill Lazutin
+Copyright (c) 2023 Khoas
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
