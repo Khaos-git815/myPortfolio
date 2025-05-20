@@ -1,0 +1,85 @@
+/* Achievements Section */
+.achievements-center {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--clr-primary-5);
+}
+
+.achievement-item {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
+  padding-left: 60%;
+  box-sizing: border-box;
+}
+
+.achievement-left {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 60%;
+}
+
+.achievement-right {
+  text-align: left;
+}
+
+.achievement-badge {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+}
+
+.achievement-left .achievement-badge {
+  right: 53%;
+  margin-right: 10px;
+}
+
+.achievement-right .achievement-badge {
+  left: 53%;
+  margin-left: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .achievement-item {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .achievement-left,
+  .achievement-right {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+  }
+
+  .achievement-left .achievement-badge,
+  .achievement-right .achievement-badge {
+    left: 50%;
+    margin-left: -20px;
+  }
+  .achievement-badge {
+    width: 40px;
+    height: 40px;
+    top: -40px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .timeline-line {
+    display: none;
+  }
+}
